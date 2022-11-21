@@ -11,7 +11,7 @@
         :visible.sync="drawer"
         direction="ltr"
         :before-close="handleClose">
-        <el-form class="noticeForm" ref="form" :model="form" label-position="top" label-width="50px">
+        <el-form class="notice-form" ref="form" :model="form" label-position="top" label-width="50px">
           <el-form-item label="Ghi chú mới">
               <el-input v-model="form.label" placeholder="Nhập chi chú mới"></el-input>
           </el-form-item>
@@ -139,7 +139,7 @@ export default {
   margin: 0;
   }
 }
-.noticeForm {
+.notice-form {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
