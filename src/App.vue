@@ -160,8 +160,4 @@ export default {
   margin-top: -6px;
 }
 }
-.close {
-  float: right;
-  margin-bottom: 5px;
-}
 </style>
