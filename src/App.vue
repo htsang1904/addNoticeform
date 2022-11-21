@@ -158,6 +158,9 @@ export default {
   .close {
   float: right;
   margin-top: -6px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
 }
 }
 </style>
